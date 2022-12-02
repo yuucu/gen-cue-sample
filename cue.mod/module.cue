@@ -1,1 +1,1 @@
-module: "github.com/yuucu/gen-gocue"
+module: "github.com/yuucu/gen-cue-sample"
