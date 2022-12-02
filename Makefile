@@ -6,4 +6,4 @@ gen:
 
 # export json
 ex:
-	cue export  data.cue
+	cue export data.cue
