@@ -1,1 +1,1 @@
-# gen-gocue
+# gen-cue-sample
