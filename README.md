@@ -32,4 +32,24 @@ https://github.com/cue-lang/cue
 │   ├── er_table
 ```
 
+# 他サンプル
 
+Makefileに書いてあるコマンド系
+
+
+### go構造体から.cueファイルを作成するサンプル
+
+```
+cue get go ./src/def --local
+```
+
+`gen-cue-sample/src/def` フォルダに.cueが作成されます
+
+
+### goから.cueファイルを読み取り、go構造体として扱う
+
+↑で作成した.cueファイルの定義に則ってデータ作成 -> goで読み取るまで
+
+```
+go run src/cmd/main.go
+```

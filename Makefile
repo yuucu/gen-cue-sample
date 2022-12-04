@@ -1,4 +1,5 @@
 
+# goから.cueを扱うsample
 run:
 	go run src/cmd/main.go
 
