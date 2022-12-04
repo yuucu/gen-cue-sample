@@ -10,7 +10,7 @@ https://github.com/cue-lang/cue
 
 # サンプル説明
 
-- yamlをmergeするサンプルです
+### yamlをmergeするサンプル
 
 ```
 ├── sample
@@ -18,14 +18,14 @@ https://github.com/cue-lang/cue
 ```
 
 
-- templateをつかって.cueからhelloworld自動生成を行うサンプルです
+### templateをつかって.cueからhelloworld自動生成を行うサンプル
 
 ```
 ├── sample
 │   ├── template
 ```
 
-- templateをつかって.cueからER図の自動生成を行うサンプルです
+### templateをつかって.cueからER図の自動生成を行うサンプル
 
 ```
 ├── sample
