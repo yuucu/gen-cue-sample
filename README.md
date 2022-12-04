@@ -5,3 +5,31 @@
 
 ## Requirement
 https://github.com/cue-lang/cue
+
+
+
+# サンプル説明
+
+- yamlをmergeするサンプルです
+
+```
+├── sample
+│   ├── merge
+```
+
+
+- templateをつかって.cueからhelloworld自動生成を行うサンプルです
+
+```
+├── sample
+│   ├── template
+```
+
+- templateをつかって.cueからER図の自動生成を行うサンプルです
+
+```
+├── sample
+│   ├── er_table
+```
+
+
