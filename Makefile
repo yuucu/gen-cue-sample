@@ -6,3 +6,7 @@ gen:
 # export json
 ex:
 	cue export 
+
+# yaml mergeしてみるサンプル
+merge:
+	cue export ./sample/merge/*.yaml
