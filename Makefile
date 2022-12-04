@@ -13,8 +13,8 @@ merge:
 
 # generate puml er
 er_puml:
-	@cue export ./sample/er_table/table.cue -e outPuml --out text
+	@cue export ./sample/er_table/ -e outPuml --out text
 
 # generate mermaid er
 er_md:
-	@cue export ./sample/er_table/table.cue -e outMd --out text
+	@cue export ./sample/er_table/ -e outMd --out text
