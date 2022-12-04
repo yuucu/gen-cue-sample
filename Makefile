@@ -10,3 +10,11 @@ ex:
 # yaml mergeしてみるサンプル
 merge:
 	cue export ./sample/merge/*.yaml
+
+# generate puml er
+er_puml:
+	@cue export ./sample/er_table/table.cue -e outPuml --out text
+
+# generate mermaid er
+er_md:
+	@cue export ./sample/er_table/table.cue -e outMd --out text
