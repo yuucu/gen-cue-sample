@@ -1,4 +1,4 @@
-package main
+package def
 
 type User struct {
 	Name string `json:"name"`

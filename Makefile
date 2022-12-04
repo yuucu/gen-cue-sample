@@ -1,9 +1,8 @@
 
-
 # generate cue from go struct
 gen:
-	cue get go def.go 
+	cue get go ./src/def --local
 
 # export json
 ex:
-	cue export data.cue
+	cue export 

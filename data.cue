@@ -1,10 +1,10 @@
 package root
 
 import (
-	"github.com/yuucu/gen-cue-sample/cue.mod/gen/command-line-arguments:main"
+	"github.com/yuucu/gen-cue-sample/src/def"
 )
 
-me: main.#User & {
+me: def.#User & {
 	name: "yuucu"
 	age:  18
 }

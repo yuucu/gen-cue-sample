@@ -1,0 +1,21 @@
+@startuml
+
+
+entity user {
+	string id
+	---
+			string name
+			int age
+}
+
+
+
+entity item {
+	string id
+	---
+			string name
+			string description
+}
+
+
+@enduml
